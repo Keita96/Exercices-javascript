@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Start your project here-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2> Reception </h2>
+                <video controls id="receiver_v" width="50%" height="200px"></video>
+                <p><button id="start" class="btn btn-success"> Demarrer la conversation</button></p>
+                <textarea id="offer" class="form-control"></textarea>
+            </div>
+
+            <div class="col-md-6">
+                <h2>envoi</h2>
+                <video controls id="emmitter_v" width="50%" height="200px"></video>
+                <p><button id="receive" class="btn btn-warning"> Recevoir la conversation</button></p>
+
+                <form action="" id="incoming">
+                    <div class="form-group">
+                        <textarea name="" id="textarea" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <p>
+                        <button class="btn btn-primary" type="submit">Enregistré l'offre</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+
+    </div>
+   <script src="web.js"></script>
+</body>
+
+</html>
